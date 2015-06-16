@@ -1,5 +1,7 @@
 MarquetNet
 
+Inspirado en el trabajo de: https://github.com/carlhako/ESP8266-Wireless-Sensors
+
 Red de Nodos con ESP8266-ESP01
 
 Usamos ESP8266-ESP01, Node.JS, LUA y MySQL. El servidor de Node-JS por el momento corre en Windows 7 pero se va a establecer con Linux. Raspberry?
