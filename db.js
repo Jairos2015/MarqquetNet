@@ -3,7 +3,7 @@ var mysql = require('mysql');
 // update with your mysql username/password below
 var pool  = mysql.createPool({
   connectionLimit : 5,
-  host            : '192.168.1.32',
+  host            : '192.168.1.32',// IP del servidor de Mysql
   dbname		: 'base_de_datos',// 'prueba'
   user            : 'usuario',//'esp8266'
   password        : 'contrasenna'//pwd
