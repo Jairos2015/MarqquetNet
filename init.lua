@@ -1,6 +1,7 @@
 print("Setting up WIFI...TEMPv00.00.02")
 wifi.setmode(wifi.STATION)
-wifi.sta.config("Movistar_82522402","00951896397")
+-- damos SSID y su Contrasenna
+wifi.sta.config("ssid","contrasenna")
 
 
 tmr.alarm(0, 1000, 1, function() 
