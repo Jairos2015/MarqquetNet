@@ -4,9 +4,9 @@ var mysql = require('mysql');
 var pool  = mysql.createPool({
   connectionLimit : 5,
   host            : '192.168.1.32',
-  dbname		: 'prueba',
-  user            : 'esp8266',
-  password        : 'TiendA151'
+  dbname		: 'base_de_datos',// 'prueba'
+  user            : 'usuario',//'esp8266'
+  password        : 'contrasenna'//pwd
 });
 
 var db = {};
